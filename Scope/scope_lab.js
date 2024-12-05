@@ -30,3 +30,26 @@ show();
 //console.log(functionVar); // Throws ReferenceError
 //console.log(functionLet); // Throws ReferenceError
 //console.log(functionConst); // Throws ReferenceError
+
+{
+    /* Practice task
+Create one block using {} and declare variables using let, const, and var.
+
+Then, try to reassign these variables within the curly braces {}. 
+Check for any errors that may occur.
+
+Next, try to reassign the same variables outside the block {} 
+and check if assignment outside the sope of variables 
+where the variables are assigned can be done or not. */
+
+var myVar = "this is myVar";
+let myLet = "this is myLet";
+const myConst = "this is myConst";
+
+//var myVar = "reassign myVar";
+//let myLet = "reassign myLet";
+//const myConst = "reassign myConst";
+}
+//var myVar = "reassign myVar";
+//let myLet = "reassign myLet";
+//const myConst = "reassign myConst";
