@@ -44,3 +44,8 @@ function deletebook(del) {
     books.splice(index, 1);
     showbooks();
 }
+
+function editbook(edit) {
+    index = edit;
+    alert(`edit book number ${index+1}`)
+}
