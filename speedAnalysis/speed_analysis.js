@@ -8,7 +8,7 @@ function startTest() {
     // Reset results and timer
     document.getElementById("output").innerHTML = "";
     document.getElementById("timer").innerHTML = "";
-    document.getElementById("userInput").innerHTML = "";
+    document.getElementById("userInput").value = "";
     document.getElementById("userInput").readOnly = false;
     startTime = new Date().getTime();
 
