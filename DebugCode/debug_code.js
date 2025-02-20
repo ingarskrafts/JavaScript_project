@@ -5,12 +5,15 @@ function performOperation() {
     // Check if inputs are valid numbers
     if (!isNaN(num1) && !isNaN(num2)) {
         // Perform the operation
-        let result = multiply(num1, num2);
+        let MultiplicationResult = multiply(num1, num2);
+        let AdditionResult = add(num1, num2);
+        let DivisionResult = divide(num1, num2);
 
         // Display the result
-        displayResult(result);
-    } else {
-        displayResult('Please enter valid numbers');
+        displayResult(MultiplicationResult, AdditionResult, DivisionResult);
+    } else { debugger;
+        const resultElement = document.getElementById('result');
+    resultElement.innerHTML = `Please enter numbers only`;
     }
 }
 
@@ -22,8 +25,21 @@ function multiply(a, b) {
     return a * b;
 }
 
-function displayResult(result) {
+function add(a, b) {
+    debugger;
+
+    return a + b;
+}
+
+function divide(a, b) {
+    debugger;
+
+    return a / b;
+}
+
+function displayResult(MultiplicationResult, AdditionResult, DivisionResult) {
     // Display the result in the paragraph element
+    
     const resultElement = document.getElementById('result');
-    resultElement.textContent = `The result is: ${result}`;
+    resultElement.innerHTML = `The multiplication result is: ${MultiplicationResult} <br> The addition result is: ${AdditionResult} <br> The division result is: ${DivisionResult}`;
 }
