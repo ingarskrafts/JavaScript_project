@@ -1,0 +1,23 @@
+{
+    "articles": [
+      {
+        "title": "Breaking News: New Technology Revolutionizes the Industry",
+        "content": "A groundbreaking new technology has been developed that promises to revolutionize the way we interact with machines. Experts are excited about the potential this new innovation holds for various industries.",
+        "author": "John Doe",
+        "date": "2025-03-04"
+      },
+      {
+        "title": "Global Markets Hit Record Highs Amid Economic Optimism",
+        "content": "Global stock markets have surged to record levels as investors are optimistic about the economic recovery. Analysts predict continued growth in the coming months, driven by strong corporate earnings and robust consumer spending.",
+        "author": "Jane Smith",
+        "date": "2025-03-03"
+      },
+      {
+        "title": "New Study Shows Health Benefits of Regular Exercise",
+        "content": "A new scientific study has shown that regular physical activity can significantly improve mental and physical health. Researchers suggest that even moderate exercise can reduce the risk of chronic diseases and enhance overall well-being.",
+        "author": "Alice Brown",
+        "date": "2025-03-02"
+      }
+    ]
+  }
+  
