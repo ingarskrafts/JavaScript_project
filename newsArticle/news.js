@@ -24,12 +24,14 @@ articles.forEach(function(article) {
     var date = document.createElement('p');
     date.textContent = article.date;
     date.style.fontStyle = 'italic';
-    });
 
     articleDiv.appendChild(title);
     articleDiv.appendChild(content);
     articleDiv.appendChild(author);
+    articleDiv.appendChild(date);
 
     articlesDiv.appendChild(articleDiv);
+    });
+    
 };
 xhr.send();
